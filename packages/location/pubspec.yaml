@@ -19,8 +19,8 @@ flutter:
       #   default_package: location_linux
       macos:
         default_package: location_macos
-      web:
-        default_package: location_web
+      # web:
+      #   default_package: location_web
       # windows:
       #   default_package: location_windows
 
@@ -45,10 +45,10 @@ dependencies:
     git:
       url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
       path: packages/location_platform_interface
-  location_web:
-    git:
-      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
-      path: packages/location_web
+  # location_web:
+  #   git:
+  #     url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+  #     path: packages/location_web
   # location_windows:
   #   path: ../location_windows
 
