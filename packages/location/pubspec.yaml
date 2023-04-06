@@ -28,17 +28,27 @@ dependencies:
   flutter:
     sdk: flutter
   location_android:
-    path: packages/location_android
+    git:
+      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+      path: packages/location_android
   location_ios:
-    path: packages/location_ios
+    git:
+      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+      path: packages/location_ios
   # location_linux:
   #   path: ../location_linux
   location_macos:
-    path: packages/location_macos
+    git:
+      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+      path: packages/location_macos
   location_platform_interface:
-    path: packages/location_platform_interface
+    git:
+      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+      path: packages/location_platform_interface
   location_web:
-    path: packages/location_web
+    git:
+      url: https://github.com/GetGreenline/flutterlocation_to_delivery_app.git
+      path: packages/location_web
   # location_windows:
   #   path: ../location_windows
 
